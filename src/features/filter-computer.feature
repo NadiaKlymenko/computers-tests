@@ -15,14 +15,14 @@ Feature: Filter Computer
     And The user input "Filter1" to the computer name
     And The user click create button
     And The user input "Filter1" to the filter field
-    And The user click filter button
+    And Open the computers page
     Then The "Filter1" is displaying in computer list
 
   Scenario: Filtering result with incorrect value
     Given The computers page is opened
     When The user input "Filter2" to the filter field
     And The user click filter button
-    Then The computers page is opened
+    Then Open the computers page
     And The confirmation message is "Nothing to display"
 
 

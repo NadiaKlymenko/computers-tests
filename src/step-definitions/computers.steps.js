@@ -13,8 +13,8 @@ export default function() {
     let addNewComputerPage;
 
     this.Before(() => {
-        computersPage = new ComputersPage('/computers');
-        addNewComputerPage = new ComputerPage('/computers/new');
+        computersPage = new ComputersPage('computers');
+        addNewComputerPage = new ComputerPage('computers/new');
     });
 
 
@@ -27,7 +27,7 @@ export default function() {
     });
 
     this.When('The user click add new computer button', () => {
-        addNewComputerPage.addNewComputerBtn.click()
+        computersPage.addNewComputerBtn.click()
     });
 
     this.When('The user click cancel button', () => {
@@ -67,7 +67,7 @@ export default function() {
     });
 
     this.When(/The user select "(.*)" to the company/, (company) => {
-        addNewComputerPage.companySelect.element(by.cssContainingText(company)).click()
+        addNewComputerPage.companySelect.element(by.cssContainingText('option', company)).click()
     });
 
 
@@ -79,28 +79,39 @@ export default function() {
         computersPage.listOfComputers.element(by.css("tbody tr td a")).click()
     });
 
-    this.Then(/The element "(.*)" is present on computer page/, (elemName) =>{
-        addNewComputerPage[elemName]
+
+    this.Then(/The element "(.*)" is present on computers page/, async (elemName) => {
+        const isElemDisplayed = await computersPage[elemName].isDisplayed()
+        expect(isElemDisplayed).to.equal(true)
     });
 
-    this.Then(/The element "(.*)" is present on computers page/, (elemName) =>{
-        computersPage[elemName]
+
+    this.Then(/The element "(.*)" is present on computer page/, async (elemName) => {
+        const isElemDisplayed = await addNewComputerPage[elemName].isDisplayed()
+        expect(isElemDisplayed).to.equal(true)
     });
 
-    this.Then('open the computers page', () => {
-        computersPage.open()
+    this.Then('Open the computers page', async () => {
+        const currentUrl = await browser.getCurrentUrl()
+        expect(currentUrl).to.contains('/computers');
     });
 
-    this.Then('open the add computer page', () => {
-        addNewComputerPage.open()
+    this.Then('Open the update computer page', async () => {
+        const currentUrl = await browser.getCurrentUrl()
+        expect(currentUrl).to.contains('/\/(\d*)/');
+    });
+
+    this.Then('Open the add computer page', async () => {
+        const currentUrl = await browser.getCurrentUrl()
+        expect(currentUrl).to.contains('/new');
     });
 
     this.Then(/The validation message is "(.*)"/, (validationMsg) => {
         expect(addNewComputerPage.validation.getText()).eventually.equal(validationMsg)
     });
 
-    this.Then(/The confirmation message is "(.*)/, (confirmationMsg) => {
-        expect(computersPage.alertMessage.getText()).eventually.equal(confirmationMsg)
+    this.Then(/The confirmation message is "(.*)"/, (confirmationMsg) => {
+        expect(computersPage.alertMessage.getText()).eventually.equal(confirmationMsg.replace(/"/g, ''))
     });
 
     this.Then(/The "(.*)" is displaying in computer list/, (computerName) => {
