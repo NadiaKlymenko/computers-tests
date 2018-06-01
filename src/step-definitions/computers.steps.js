@@ -58,6 +58,23 @@ export default function() {
         addNewComputerPage.computerNameField.sendKeys(computerName)
     });
 
+    this.When(/The user input "(.*)" to the discontinued date/, (discDate) => {
+        addNewComputerPage.discontinuedDateField.sendKeys(discDate)
+    });
+
+    this.When(/The user input "(.*)" to the introduced date/, (intrDate) => {
+        addNewComputerPage.introducedDateField.sendKeys(intrDate)
+    });
+
+    this.When(/The user select "(.*)" to the company/, (company) => {
+        addNewComputerPage.companySelect.element(by.cssContainingText(company)).click()
+    });
+
+
+
+
+
+
     this.When('The user click on the first computer in computer list', () => {
         computersPage.listOfComputers.element(by.css("tbody tr td a")).click()
     });
@@ -79,7 +96,7 @@ export default function() {
     });
 
     this.Then(/The validation message is "(.*)"/, (validationMsg) => {
-        expect(addNewComputerPage.validation.getText()).toEqual(validationMsg)
+        expect(addNewComputerPage.validation.getText()).eventually.equal(validationMsg)
     });
 
     this.Then(/The confirmation message is "(.*)/, (confirmationMsg) => {
@@ -92,7 +109,7 @@ export default function() {
 
 
     this.Then(/The computer name is "(.*)"/, (computerName) => {
-        expect(computersPage.getText()).toEqual(computerName)
+        expect(addNewComputerPage.computerNameField.getText()).eventually.equal(computerName)
     });
 
 };
