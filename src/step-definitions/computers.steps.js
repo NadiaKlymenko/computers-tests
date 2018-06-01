@@ -1,6 +1,12 @@
 import { ComputersPage } from '../pages/computers-page'
 import { ComputerPage } from '../pages/computer-page'
-import { expect } from 'chai'
+import chaiAsPromised from 'chai-as-promised'
+import chai from 'chai'
+
+
+chai.use(chaiAsPromised)
+
+const expect = chai.expect
 
 export default function() {
     let computersPage;
@@ -28,6 +34,10 @@ export default function() {
         addNewComputerPage.cancelBtn.click()
     });
 
+    this.When('The user click filter button', () => {
+        computersPage.filterComputerBtn.click()
+    });
+
     this.When('The user click create button', () => {
         addNewComputerPage.addNewComputerBtn.click()
     });
@@ -42,6 +52,10 @@ export default function() {
 
     this.When(/The user input "(.*)" to the filter field/, (computerName) => {
         computersPage.filterField.sendKeys(computerName)
+    });
+
+    this.When(/The user input "(.*)" to the computer name/, (computerName) => {
+        addNewComputerPage.computerNameField.sendKeys(computerName)
     });
 
     this.When('The user click on the first computer in computer list', () => {
@@ -69,11 +83,11 @@ export default function() {
     });
 
     this.Then(/The confirmation message is "(.*)/, (confirmationMsg) => {
-        expect(computersPage.allertMessage.getText()).toEqual(confirmationMsg)
+        expect(computersPage.alertMessage.getText()).eventually.equal(confirmationMsg)
     });
 
     this.Then(/The "(.*)" is displaying in computer list/, (computerName) => {
-        expect(computersPage.listOfComputers.element(by.css("tbody tr td a")).getText()).toEqual(computerName)
+        expect(computersPage.listOfComputers.element(by.css("tbody tr td a")).getText()).eventually.equal(computerName)
     });
 
 
