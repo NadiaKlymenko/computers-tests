@@ -12,21 +12,17 @@ Feature: Filter Computer
   Scenario: Filtering result with existing value
     Given The computers page is opened
     When The user click add new computer button
-    And The user input Filter1
+    And The user input "Filter1" to the computer name
     And The user click create button
-    And The user input Filter1 in filter field
-    And The user click filter button
-    Then The Filter1 is displaying in computer list
+    And The user input "Filter1" to the filter field
+    And Open the computers page
+    Then The "Filter1" is displaying in computer list
 
   Scenario: Filtering result with incorrect value
     Given The computers page is opened
-    When The user input Filter2 in filter field
+    When The user input "Filter2" to the filter field
     And The user click filter button
-    Then the current page is computers page
+    Then Open the computers page
     And The confirmation message is "Nothing to display"
 
 
-  Scenario: Filtering result with empty value
-    Given The computers page is opened
-    When The user click filter button
-    Then The Filter1 is displaying in computer list # ne fact

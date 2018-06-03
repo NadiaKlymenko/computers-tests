@@ -1,14 +1,20 @@
 import { ComputersPage } from '../pages/computers-page'
 import { ComputerPage } from '../pages/computer-page'
-import { expect } from 'chai'
+import chaiAsPromised from 'chai-as-promised'
+import chai from 'chai'
+
+
+chai.use(chaiAsPromised)
+
+const expect = chai.expect
 
 export default function() {
     let computersPage;
     let addNewComputerPage;
 
     this.Before(() => {
-        computersPage = new ComputersPage('/computers');
-        addNewComputerPage = new ComputerPage('/computers/new');
+        computersPage = new ComputersPage('computers');
+        addNewComputerPage = new ComputerPage('computers/new');
     });
 
 
@@ -21,11 +27,15 @@ export default function() {
     });
 
     this.When('The user click add new computer button', () => {
-        addNewComputerPage.addNewComputerBtn.click()
+        computersPage.addNewComputerBtn.click()
     });
 
     this.When('The user click cancel button', () => {
         addNewComputerPage.cancelBtn.click()
+    });
+
+    this.When('The user click filter button', () => {
+        computersPage.filterComputerBtn.click()
     });
 
     this.When('The user click create button', () => {
@@ -44,41 +54,73 @@ export default function() {
         computersPage.filterField.sendKeys(computerName)
     });
 
+    this.When(/The user input "(.*)" to the computer name/, (computerName) => {
+        addNewComputerPage.computerNameField.sendKeys(computerName)
+    });
+
+    this.When(/The user input "(.*)" to the discontinued date/, (discDate) => {
+        addNewComputerPage.discontinuedDateField.sendKeys(discDate)
+    });
+
+    this.When(/The user input "(.*)" to the introduced date/, (intrDate) => {
+        addNewComputerPage.introducedDateField.sendKeys(intrDate)
+    });
+
+    this.When(/The user select "(.*)" to the company/, (company) => {
+        addNewComputerPage.companySelect.element(by.cssContainingText('option', company)).click()
+    });
+
+
+
+
+
+
     this.When('The user click on the first computer in computer list', () => {
         computersPage.listOfComputers.element(by.css("tbody tr td a")).click()
     });
 
-    this.Then(/The element "(.*)" is present on computer page/, (elemName) =>{
-        addNewComputerPage[elemName]
+
+    this.Then(/The element "(.*)" is present on computers page/, async (elemName) => {
+        const isElemDisplayed = await computersPage[elemName].isDisplayed()
+        expect(isElemDisplayed).to.equal(true)
     });
 
-    this.Then(/The element "(.*)" is present on computers page/, (elemName) =>{
-        computersPage[elemName]
+
+    this.Then(/The element "(.*)" is present on computer page/, async (elemName) => {
+        const isElemDisplayed = await addNewComputerPage[elemName].isDisplayed()
+        expect(isElemDisplayed).to.equal(true)
     });
 
-    this.Then('open the computers page', () => {
-        computersPage.open()
+    this.Then('Open the computers page', async () => {
+        const currentUrl = await browser.getCurrentUrl()
+        expect(currentUrl).to.contains('/computers');
     });
 
-    this.Then('open the add computer page', () => {
-        addNewComputerPage.open()
+    this.Then('Open the update computer page', async () => {
+        const currentUrl = await browser.getCurrentUrl()
+        expect(currentUrl).to.contains('/\/(\d*)/');
+    });
+
+    this.Then('Open the add computer page', async () => {
+        const currentUrl = await browser.getCurrentUrl()
+        expect(currentUrl).to.contains('/new');
     });
 
     this.Then(/The validation message is "(.*)"/, (validationMsg) => {
-        expect(addNewComputerPage.validation.getText()).toEqual(validationMsg)
+        expect(addNewComputerPage.validation.getText()).eventually.equal(validationMsg)
     });
 
-    this.Then(/The confirmation message is "(.*)/, (confirmationMsg) => {
-        expect(computersPage.allertMessage.getText()).toEqual(confirmationMsg)
+    this.Then(/The confirmation message is "(.*)"/, (confirmationMsg) => {
+        expect(computersPage.alertMessage.getText()).eventually.equal(confirmationMsg.replace(/"/g, ''))
     });
 
     this.Then(/The "(.*)" is displaying in computer list/, (computerName) => {
-        expect(computersPage.listOfComputers.element(by.css("tbody tr td a")).getText()).toEqual(computerName)
+        expect(computersPage.listOfComputers.element(by.css("tbody tr td a")).getText()).eventually.equal(computerName)
     });
 
 
     this.Then(/The computer name is "(.*)"/, (computerName) => {
-        expect(computersPage.getText()).toEqual(computerName)
+        expect(addNewComputerPage.computerNameField.getText()).eventually.equal(computerName)
     });
 
 };
