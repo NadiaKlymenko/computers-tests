@@ -73,6 +73,12 @@ Feature: Update Computer
       | "Update8"       |     ""          |      ""           |    ""                  | "Required"            |
       | "Update9"       | "jdkgfhjk43"    |      ""           | "Update9"              | "Date ('yyyy-MM-dd')" |
       | "Update10"      |     ""          | "43859734f"       | "Update10"             | "Date ('yyyy-MM-dd')" |
+      | "Update11"      | ""              | "0000-00-01"      |      "Update11"        | "Date ('yyyy-MM-dd')" |
+      | "Update12"      | "2014-13-32"    | ""                | "Update12"             |"Date ('yyyy-MM-dd')"  |
+      | "Update13"      | "20114-13-32"   | ""                | "Update13"             |"Date ('yyyy-MM-dd')"  |
+      | "Update14"      | ""              |     "14-13-32"    | "Uodate14"             |"Date ('yyyy-MM-dd')"  |
+      | "Update15"      | "302--12--12"   |     ""            | "Update15"             |"Date ('yyyy-MM-dd')"  |
+      | "Update16"      | ""              |   "2014-02-32"    | "Update16"             |"Date ('yyyy-MM-dd')"  |
 
 
 

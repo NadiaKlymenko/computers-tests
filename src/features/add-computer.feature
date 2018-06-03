@@ -35,7 +35,7 @@ Feature: Add Computer
       | "Add4"         |         ""      | "2022-03-04"      |  "RCA"  |
       | "Add6"         |         ""      |    ""             | "RCA"   |
       | "Add7"         | "2013-03-04"    | "2022-03-04"      | "RCA"   |
-#
+
   Scenario Outline: validation errors
     Given The add computer page is opened
     When The user input <computer name> to the computer name
@@ -50,5 +50,14 @@ Feature: Add Computer
       | ""            |   ""            |       ""            | "Required"            |
       | "Add3"        | "jdkgfhjk43"    |       ""            | "Date ('yyyy-MM-dd')" |
       | "Add5"        |    ""           | "43859734f"         | "Date ('yyyy-MM-dd')" |
-     
+      | "Add8"        | "0000-00-00"    | ""                  | "Date ('yyyy-MM-dd')" |
+      | "Add9"        | ""              | "0000-00-01"        | "Date ('yyyy-MM-dd')" |
+      | "Add10"       | "2014-13-32"    | ""                  | "Date ('yyyy-MM-dd')" |
+      | "Add11"       | "20114-13-32"   | ""                  | "Date ('yyyy-MM-dd')" |
+      | "Add12"       | ""              |     "14-13-32"      | "Date ('yyyy-MM-dd')" |
+      | "Add13"       | "302--12--12"   |     ""              | "Date ('yyyy-MM-dd')" |
+      | "Add14"       | ""              |   "2014-02-32"      | "Date ('yyyy-MM-dd')" |
+
+
+
 
