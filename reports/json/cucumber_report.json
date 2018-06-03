@@ -1,0 +1,5375 @@
+[
+  {
+    "description": "  User would like access to basic add computer functionality\n  So that user can add a computer",
+    "elements": [
+      {
+        "id": "add-computer;add-computer-page-displaying",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Add computer page displaying",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 3011434
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 620422
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 967380
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the add computer page",
+            "result": {
+              "status": "passed",
+              "duration": 1341495413
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The element \"addNewComputerBtn\" is present on computer page",
+            "result": {
+              "status": "passed",
+              "duration": 68954315
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The element \"computerNameField\" is present on computer page",
+            "result": {
+              "status": "passed",
+              "duration": 52928854
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The element \"introducedDateField\" is present on computer page",
+            "result": {
+              "status": "passed",
+              "duration": 59829285
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:84"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "add-computer;cancel-add-a-new-computer",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Cancel Add a new computer",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 598177
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 227571
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 196838
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click cancel button",
+            "result": {
+              "status": "passed",
+              "duration": 418495
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the computers page",
+            "result": {
+              "status": "passed",
+              "duration": 646180946
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:89"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "add-computer;successfull-adding",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "successfull adding",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 349876
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The add computer page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 232191
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Add1\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 297217
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 289783
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 336982
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user select \"RCA\" to the company",
+            "result": {
+              "status": "passed",
+              "duration": 349858
+            },
+            "line": 26,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:68"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 242920
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the computers page",
+            "result": {
+              "status": "passed",
+              "duration": 986638738
+            },
+            "line": 28,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The confirmation message is \"Done! Computer \"Add1\" has been created\"",
+            "result": {
+              "status": "passed",
+              "duration": 48107284
+            },
+            "line": 29,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:109"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "add-computer;successfull-adding",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "successfull adding",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 504825
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The add computer page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 278780
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Add2\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 499976
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"2022-03-04\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 483748
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 470785
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user select \"RCA\" to the company",
+            "result": {
+              "status": "passed",
+              "duration": 392324
+            },
+            "line": 26,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:68"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 293736
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the computers page",
+            "result": {
+              "status": "passed",
+              "duration": 1061750293
+            },
+            "line": 28,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The confirmation message is \"Done! Computer \"Add2\" has been created\"",
+            "result": {
+              "status": "passed",
+              "duration": 34264996
+            },
+            "line": 29,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:109"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "add-computer;successfull-adding",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "successfull adding",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 363413
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The add computer page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 174888
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Add4\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 264445
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 949146
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"2022-03-04\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 289935
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user select \"RCA\" to the company",
+            "result": {
+              "status": "passed",
+              "duration": 226058
+            },
+            "line": 26,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:68"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 165586
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the computers page",
+            "result": {
+              "status": "passed",
+              "duration": 960398394
+            },
+            "line": 28,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The confirmation message is \"Done! Computer \"Add4\" has been created\"",
+            "result": {
+              "status": "passed",
+              "duration": 35809277
+            },
+            "line": 29,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:109"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "add-computer;successfull-adding",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "successfull adding",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 521105
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The add computer page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 228587
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Add6\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 273780
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 232739
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 225869
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user select \"RCA\" to the company",
+            "result": {
+              "status": "passed",
+              "duration": 184931
+            },
+            "line": 26,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:68"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 154714
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the computers page",
+            "result": {
+              "status": "passed",
+              "duration": 917333980
+            },
+            "line": 28,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The confirmation message is \"Done! Computer \"Add6\" has been created\"",
+            "result": {
+              "status": "passed",
+              "duration": 32269855
+            },
+            "line": 29,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:109"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "add-computer;successfull-adding",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "successfull adding",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 431339
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The add computer page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 207997
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Add7\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 1356646
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"2013-03-04\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 317004
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"2022-03-04\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 223959
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user select \"RCA\" to the company",
+            "result": {
+              "status": "passed",
+              "duration": 500888
+            },
+            "line": 26,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:68"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 178432
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the computers page",
+            "result": {
+              "status": "passed",
+              "duration": 987144824
+            },
+            "line": 28,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The confirmation message is \"Done! Computer \"Add7\" has been created\"",
+            "result": {
+              "status": "passed",
+              "duration": 34862862
+            },
+            "line": 29,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:109"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "add-computer;validation-errors",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "validation errors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 619219
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The add computer page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 189404
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 1457028
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 323400
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 422078
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 278530
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the add computer page",
+            "result": {
+              "status": "failed",
+              "duration": 666494385,
+              "error_message": "AssertionError: expected 'http://computer-database.herokuapp.com/computers' to contain 'computers/new'\n    at World.<anonymous> (/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:101:29)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
+            },
+            "line": 45,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Required\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "add-computer;validation-errors",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "validation errors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 297245
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The add computer page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 188920
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Add3\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 248894
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"jdkgfhjk43\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 294680
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 242368
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 170399
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the add computer page",
+            "result": {
+              "status": "failed",
+              "duration": 747203908,
+              "error_message": "AssertionError: expected 'http://computer-database.herokuapp.com/computers' to contain 'computers/new'\n    at World.<anonymous> (/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:101:29)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
+            },
+            "line": 45,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "add-computer;validation-errors",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "validation errors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 457068
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The add computer page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 934116
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Add5\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 328445
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 366252
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"43859734f\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 351623
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 324557
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the add computer page",
+            "result": {
+              "status": "failed",
+              "duration": 797847874,
+              "error_message": "AssertionError: expected 'http://computer-database.herokuapp.com/computers' to contain 'computers/new'\n    at World.<anonymous> (/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:101:29)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
+            },
+            "line": 45,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "add-computer;validation-errors",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "validation errors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 443433
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The add computer page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 334142
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Add8\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 308823
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"0000-00-00\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 288318
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 272563
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 224420
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the add computer page",
+            "result": {
+              "status": "failed",
+              "duration": 745064163,
+              "error_message": "AssertionError: expected 'http://computer-database.herokuapp.com/computers' to contain 'computers/new'\n    at World.<anonymous> (/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:101:29)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
+            },
+            "line": 45,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "add-computer;validation-errors",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "validation errors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 477305
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The add computer page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 243193
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Add9\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 365440
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 283199
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"0000-00-01\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 318786
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 201894
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the add computer page",
+            "result": {
+              "status": "failed",
+              "duration": 770534331,
+              "error_message": "AssertionError: expected 'http://computer-database.herokuapp.com/computers' to contain 'computers/new'\n    at World.<anonymous> (/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:101:29)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
+            },
+            "line": 45,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "add-computer;validation-errors",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "validation errors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 341572
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The add computer page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 169445
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Add10\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 235635
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"2014-13-32\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 230191
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 217169
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 203745
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the add computer page",
+            "result": {
+              "status": "failed",
+              "duration": 742057389,
+              "error_message": "AssertionError: expected 'http://computer-database.herokuapp.com/computers' to contain 'computers/new'\n    at World.<anonymous> (/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:101:29)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
+            },
+            "line": 45,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "add-computer;validation-errors",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "validation errors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 481140
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The add computer page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 180407
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Add11\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 280554
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"20114-13-32\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 273166
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 648638
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 213175
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the add computer page",
+            "result": {
+              "status": "failed",
+              "duration": 762584497,
+              "error_message": "AssertionError: expected 'http://computer-database.herokuapp.com/computers' to contain 'computers/new'\n    at World.<anonymous> (/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:101:29)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
+            },
+            "line": 45,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "add-computer;validation-errors",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "validation errors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 421072
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The add computer page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 187881
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Add12\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 277240
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 329437
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"14-13-32\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 318943
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 269015
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the add computer page",
+            "result": {
+              "status": "failed",
+              "duration": 748397682,
+              "error_message": "AssertionError: expected 'http://computer-database.herokuapp.com/computers' to contain 'computers/new'\n    at World.<anonymous> (/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:101:29)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
+            },
+            "line": 45,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "add-computer;validation-errors",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "validation errors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 365799
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The add computer page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 160060
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Add13\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 583306
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"302--12--12\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 277207
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 234833
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 211742
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the add computer page",
+            "result": {
+              "status": "failed",
+              "duration": 811485764,
+              "error_message": "AssertionError: expected 'http://computer-database.herokuapp.com/computers' to contain 'computers/new'\n    at World.<anonymous> (/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:101:29)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
+            },
+            "line": 45,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "add-computer;validation-errors",
+        "keyword": "Scenario",
+        "line": 59,
+        "name": "validation errors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 433128
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The add computer page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 179971
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Add14\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 283884
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 521173
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"2014-02-32\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 314470
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 201810
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the add computer page",
+            "result": {
+              "status": "failed",
+              "duration": 842174216,
+              "error_message": "AssertionError: expected 'http://computer-database.herokuapp.com/computers' to contain 'computers/new'\n    at World.<anonymous> (/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:101:29)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
+            },
+            "line": 45,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-computer",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Add Computer",
+    "tags": [],
+    "uri": "/Users/hope/Documents/Projects/computers-tests/src/features/add-computer.feature"
+  },
+  {
+    "description": "  As a user of a computers app\n  I would like access to basic delete computer functionality\n  So that I can delete a computer",
+    "elements": [
+      {
+        "id": "delete-computer;delete-a-computer",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Delete a computer",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 395724
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 160323
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 176990
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Delete\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 254049
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 170060
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Delete\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 327008
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 232437
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 364243
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click delete button",
+            "result": {
+              "status": "passed",
+              "duration": 262555
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the computers page",
+            "result": {
+              "status": "passed",
+              "duration": 1974716503
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The confirmation message is \"Done! Computer has been deleted\"",
+            "result": {
+              "status": "passed",
+              "duration": 37574601
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:109"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "delete-computer",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Delete Computer",
+    "tags": [],
+    "uri": "/Users/hope/Documents/Projects/computers-tests/src/features/delete-computer.feature"
+  },
+  {
+    "description": "  As a user of a computers app\n  I would like access to basic filter computer functionality\n  So that I can filter a computer\n\n  Given The computers page is opened\n  Then The element \"addNewComputerBtn\" is present on computers page\n  And The element \"listOfComputers\" is present on computers page\n  And The element \"filterField\" is present on computers page",
+    "elements": [
+      {
+        "id": "filter-computer;filtering-result-with-existing-value",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Filtering result with existing value",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 417670
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 163814
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 969399
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Filter1\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 465427
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 193676
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Filter1\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 250463
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 162650
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the computers page",
+            "result": {
+              "status": "passed",
+              "duration": 1328686266
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The \"Filter1\" is displaying in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 77499516
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:119"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "filter-computer;filtering-result-with-incorrect-value",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Filtering result with incorrect value",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 291551
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 178262
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Filter2\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 280905
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 146803
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the computers page",
+            "result": {
+              "status": "passed",
+              "duration": 530454054
+            },
+            "line": 26,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The information message is \"Nothing to display\"",
+            "result": {
+              "status": "passed",
+              "duration": 39359594
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:114"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "filter-computer",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Filter Computer",
+    "tags": [],
+    "uri": "/Users/hope/Documents/Projects/computers-tests/src/features/filter-computer.feature"
+  },
+  {
+    "description": "  As a user of a computers app\n  I would like access to basic update computer functionality\n  So that I can update a computer",
+    "elements": [
+      {
+        "id": "update-computer;update-computer-page-displaying",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Update computer page displaying",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 349812
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 152255
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 148091
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update1\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 216919
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 150998
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update1\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 207313
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 140122
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 175862
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the update computer page",
+            "result": {
+              "status": "passed",
+              "duration": 1626592706
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The computer name is \"Update1\"",
+            "result": {
+              "status": "passed",
+              "duration": 20910716
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:125"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "update-computer;cancel-updating-a-computer-name",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Cancel updating a computer name",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 439722
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 182202
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 230641
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update2\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 281848
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 174841
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update2\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 266254
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 209616
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 188433
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update2Modified\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 258929
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click cancel button",
+            "result": {
+              "status": "passed",
+              "duration": 177516
+            },
+            "line": 26,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the computers page",
+            "result": {
+              "status": "passed",
+              "duration": 1973332437
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:89"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "update-computer;successfull-updates",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "successfull updates",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 430164
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 326567
+            },
+            "line": 31,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 193885
+            },
+            "line": 32,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update3\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 286800
+            },
+            "line": 33,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 169322
+            },
+            "line": 34,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update3\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 676327
+            },
+            "line": 35,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 220340
+            },
+            "line": 36,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 197453
+            },
+            "line": 37,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Update3Modified\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 258453
+            },
+            "line": 38,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 212080
+            },
+            "line": 39,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 247547
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user select \"\" to the company",
+            "result": {
+              "status": "passed",
+              "duration": 210440
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:68"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 163996
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the computers page",
+            "result": {
+              "status": "passed",
+              "duration": 2420178949
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The confirmation message is \"Done! Computer \"Update3Modified\" has been updated\"",
+            "result": {
+              "status": "passed",
+              "duration": 40626018
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:109"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "update-computer;successfull-updates",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "successfull updates",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 464059
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 164646
+            },
+            "line": 31,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 168603
+            },
+            "line": 32,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update4\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 255308
+            },
+            "line": 33,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 167124
+            },
+            "line": 34,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update4\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 252181
+            },
+            "line": 35,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 162946
+            },
+            "line": 36,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 187368
+            },
+            "line": 37,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Update4\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 393709
+            },
+            "line": 38,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"2022-03-04\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 339353
+            },
+            "line": 39,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 478944
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user select \"\" to the company",
+            "result": {
+              "status": "passed",
+              "duration": 335334
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:68"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 270284
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the computers page",
+            "result": {
+              "status": "passed",
+              "duration": 3195840947
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The confirmation message is \"Done! Computer \"Update4\" has been updated\"",
+            "result": {
+              "status": "passed",
+              "duration": 33277269
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:109"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "update-computer;successfull-updates",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "successfull updates",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 620471
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 158076
+            },
+            "line": 31,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 151603
+            },
+            "line": 32,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update5\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 252690
+            },
+            "line": 33,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 161533
+            },
+            "line": 34,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update5\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 204790
+            },
+            "line": 35,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 137775
+            },
+            "line": 36,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 230073
+            },
+            "line": 37,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Update5\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 442562
+            },
+            "line": 38,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 271160
+            },
+            "line": 39,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"2022-03-04\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 207818
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user select \"\" to the company",
+            "result": {
+              "status": "passed",
+              "duration": 198157
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:68"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 157950
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the computers page",
+            "result": {
+              "status": "passed",
+              "duration": 2419073748
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The confirmation message is \"Done! Computer \"Update5\" has been updated\"",
+            "result": {
+              "status": "passed",
+              "duration": 38160888
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:109"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "update-computer;successfull-updates",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "successfull updates",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 520025
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 230673
+            },
+            "line": 31,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 167792
+            },
+            "line": 32,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update6\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 224586
+            },
+            "line": 33,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 150340
+            },
+            "line": 34,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update6\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 212535
+            },
+            "line": 35,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 168035
+            },
+            "line": 36,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 451990
+            },
+            "line": 37,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Update6\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 664370
+            },
+            "line": 38,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 281229
+            },
+            "line": 39,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 981851
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user select \"RCA\" to the company",
+            "result": {
+              "status": "passed",
+              "duration": 206052
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:68"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 156834
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the computers page",
+            "result": {
+              "status": "passed",
+              "duration": 2340628358
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The confirmation message is \"Done! Computer \"Update6\" has been updated\"",
+            "result": {
+              "status": "passed",
+              "duration": 30767332
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:109"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "update-computer;successfull-updates",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "successfull updates",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 690160
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 237476
+            },
+            "line": 31,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 182405
+            },
+            "line": 32,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update7\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 257960
+            },
+            "line": 33,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 145195
+            },
+            "line": 34,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update7\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 215100
+            },
+            "line": 35,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 140621
+            },
+            "line": 36,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 153352
+            },
+            "line": 37,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user input \"Update7Modified\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 1619082
+            },
+            "line": 38,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"2013-03-04\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 248482
+            },
+            "line": 39,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"2022-03-04\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 246377
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user select \"RCA\" to the company",
+            "result": {
+              "status": "passed",
+              "duration": 177584
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:68"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 156277
+            },
+            "line": 42,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the computers page",
+            "result": {
+              "status": "passed",
+              "duration": 2459439508
+            },
+            "line": 43,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The confirmation message is \"Done! Computer \"Update7Modified\" has been updated\"",
+            "result": {
+              "status": "passed",
+              "duration": 34291549
+            },
+            "line": 44,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:109"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "update-computer;validation-during-updating",
+        "keyword": "Scenario",
+        "line": 73,
+        "name": "validation during updating",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 306695
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 159362
+            },
+            "line": 56,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 157052
+            },
+            "line": 57,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update8\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 201985
+            },
+            "line": 58,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 159066
+            },
+            "line": 59,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update8\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 193212
+            },
+            "line": 60,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 130486
+            },
+            "line": 61,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 147440
+            },
+            "line": 62,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 211199
+            },
+            "line": 63,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 197137
+            },
+            "line": 64,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 229656
+            },
+            "line": 65,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 149440
+            },
+            "line": 66,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the update computer page",
+            "result": {
+              "status": "passed",
+              "duration": 3370401550
+            },
+            "line": 67,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Required\"",
+            "result": {
+              "status": "passed",
+              "duration": 41061564
+            },
+            "line": 68,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "update-computer;validation-during-updating",
+        "keyword": "Scenario",
+        "line": 74,
+        "name": "validation during updating",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 306327
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 143128
+            },
+            "line": 56,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 137781
+            },
+            "line": 57,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update9\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 195663
+            },
+            "line": 58,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 131224
+            },
+            "line": 59,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update9\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 262112
+            },
+            "line": 60,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 308007
+            },
+            "line": 61,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 647196
+            },
+            "line": 62,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update9\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 289193
+            },
+            "line": 63,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"jdkgfhjk43\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 312467
+            },
+            "line": 64,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 278757
+            },
+            "line": 65,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 162342
+            },
+            "line": 66,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the update computer page",
+            "result": {
+              "status": "passed",
+              "duration": 2514617420
+            },
+            "line": 67,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "passed",
+              "duration": 36222240
+            },
+            "line": 68,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "update-computer;validation-during-updating",
+        "keyword": "Scenario",
+        "line": 75,
+        "name": "validation during updating",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 434992
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 236129
+            },
+            "line": 56,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 177770
+            },
+            "line": 57,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update10\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 268192
+            },
+            "line": 58,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 177672
+            },
+            "line": 59,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update10\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 384644
+            },
+            "line": 60,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 342293
+            },
+            "line": 61,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 304737
+            },
+            "line": 62,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update10\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 473054
+            },
+            "line": 63,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 286949
+            },
+            "line": 64,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"43859734f\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 368863
+            },
+            "line": 65,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 177163
+            },
+            "line": 66,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the update computer page",
+            "result": {
+              "status": "passed",
+              "duration": 3414430627
+            },
+            "line": 67,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "passed",
+              "duration": 35241070
+            },
+            "line": 68,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "update-computer;validation-during-updating",
+        "keyword": "Scenario",
+        "line": 76,
+        "name": "validation during updating",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 478511
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 182255
+            },
+            "line": 56,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 180777
+            },
+            "line": 57,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update11\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 320093
+            },
+            "line": 58,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 207503
+            },
+            "line": 59,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update11\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 263100
+            },
+            "line": 60,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 337945
+            },
+            "line": 61,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 368422
+            },
+            "line": 62,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update11\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 452128
+            },
+            "line": 63,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 290240
+            },
+            "line": 64,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"0000-00-01\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 294449
+            },
+            "line": 65,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 201902
+            },
+            "line": 66,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the update computer page",
+            "result": {
+              "status": "passed",
+              "duration": 2984881348
+            },
+            "line": 67,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "passed",
+              "duration": 31217842
+            },
+            "line": 68,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "update-computer;validation-during-updating",
+        "keyword": "Scenario",
+        "line": 77,
+        "name": "validation during updating",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 478422
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 201730
+            },
+            "line": 56,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 174717
+            },
+            "line": 57,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update12\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 224124
+            },
+            "line": 58,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 137702
+            },
+            "line": 59,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update12\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 196046
+            },
+            "line": 60,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 182296
+            },
+            "line": 61,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 177303
+            },
+            "line": 62,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update12\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 334560
+            },
+            "line": 63,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"2014-13-32\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 821304
+            },
+            "line": 64,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 299000
+            },
+            "line": 65,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 151703
+            },
+            "line": 66,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the update computer page",
+            "result": {
+              "status": "passed",
+              "duration": 3255138515
+            },
+            "line": 67,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "passed",
+              "duration": 39614973
+            },
+            "line": 68,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "update-computer;validation-during-updating",
+        "keyword": "Scenario",
+        "line": 78,
+        "name": "validation during updating",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 415531
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 185221
+            },
+            "line": 56,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 178933
+            },
+            "line": 57,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update13\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 283448
+            },
+            "line": 58,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 214295
+            },
+            "line": 59,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update13\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 271493
+            },
+            "line": 60,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 265835
+            },
+            "line": 61,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 214494
+            },
+            "line": 62,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update13\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 256997
+            },
+            "line": 63,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"20114-13-32\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 378576
+            },
+            "line": 64,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 353480
+            },
+            "line": 65,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 230299
+            },
+            "line": 66,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the update computer page",
+            "result": {
+              "status": "passed",
+              "duration": 2375864003
+            },
+            "line": 67,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "passed",
+              "duration": 41931012
+            },
+            "line": 68,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "update-computer;validation-during-updating",
+        "keyword": "Scenario",
+        "line": 79,
+        "name": "validation during updating",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 394568
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 170564
+            },
+            "line": 56,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 168623
+            },
+            "line": 57,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update14\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 257719
+            },
+            "line": 58,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 165434
+            },
+            "line": 59,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update14\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 270755
+            },
+            "line": 60,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 171073
+            },
+            "line": 61,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 183009
+            },
+            "line": 62,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Uodate14\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 245414
+            },
+            "line": 63,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 368582
+            },
+            "line": 64,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"14-13-32\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 330684
+            },
+            "line": 65,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 215512
+            },
+            "line": 66,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the update computer page",
+            "result": {
+              "status": "passed",
+              "duration": 2962051511
+            },
+            "line": 67,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "passed",
+              "duration": 34164696
+            },
+            "line": 68,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "update-computer;validation-during-updating",
+        "keyword": "Scenario",
+        "line": 80,
+        "name": "validation during updating",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 317958
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 185492
+            },
+            "line": 56,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 161360
+            },
+            "line": 57,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update15\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 219404
+            },
+            "line": 58,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 149632
+            },
+            "line": 59,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update15\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 229914
+            },
+            "line": 60,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 241407
+            },
+            "line": 61,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 291341
+            },
+            "line": 62,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update15\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 399157
+            },
+            "line": 63,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"302--12--12\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 250563
+            },
+            "line": 64,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 243640
+            },
+            "line": 65,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 159972
+            },
+            "line": 66,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the update computer page",
+            "result": {
+              "status": "passed",
+              "duration": 2204055914
+            },
+            "line": 67,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "passed",
+              "duration": 38473326
+            },
+            "line": 68,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "update-computer;validation-during-updating",
+        "keyword": "Scenario",
+        "line": 81,
+        "name": "validation during updating",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 289410
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The computers page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 145705
+            },
+            "line": 56,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "The user click add new computer button",
+            "result": {
+              "status": "passed",
+              "duration": 149597
+            },
+            "line": 57,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update16\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 192726
+            },
+            "line": 58,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 143748
+            },
+            "line": 59,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update16\" to the filter field",
+            "result": {
+              "status": "passed",
+              "duration": 197805
+            },
+            "line": 60,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click filter button",
+            "result": {
+              "status": "passed",
+              "duration": 132819
+            },
+            "line": 61,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click on the first computer in computer list",
+            "result": {
+              "status": "passed",
+              "duration": 138143
+            },
+            "line": 62,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"Update16\" to the computer name",
+            "result": {
+              "status": "passed",
+              "duration": 190669
+            },
+            "line": 63,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"\" to the introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 186243
+            },
+            "line": 64,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user input \"2014-02-32\" to the discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 240990
+            },
+            "line": 65,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The user click create button",
+            "result": {
+              "status": "passed",
+              "duration": 130767
+            },
+            "line": 66,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Open the update computer page",
+            "result": {
+              "status": "passed",
+              "duration": 2494493972
+            },
+            "line": 67,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "The validation message is \"Date ('yyyy-MM-dd')\"",
+            "result": {
+              "status": "passed",
+              "duration": 32856876
+            },
+            "line": 68,
+            "match": {
+              "location": "/Users/hope/Documents/Projects/computers-tests/src/step-definitions/computers.steps.js:104"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "update-computer",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Update Computer",
+    "tags": [],
+    "uri": "/Users/hope/Documents/Projects/computers-tests/src/features/update-computer.feature"
+  }
+]
